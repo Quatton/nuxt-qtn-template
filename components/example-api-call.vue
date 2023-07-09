@@ -5,9 +5,11 @@
 <template>
   <UCard class="prose dark:prose-invert">
     <template #header>
-      <span class="flex items-center">
-        This is an example of calling an API endpoint. It has 50% chance of
-        failing.
+      <span class="flex items-center gap-4">
+        <p>
+          This is an example of calling an API endpoint.<br />
+          It has 50% chance of failing.
+        </p>
         <UButton
           size="sm"
           color="primary"
@@ -15,6 +17,7 @@
           icon="i-heroicons-arrow-path"
           variant="ghost"
           :loading="pending"
+          class="ml-auto"
           @click="refresh"
         />
       </span>

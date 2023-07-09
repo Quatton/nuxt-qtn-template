@@ -10,7 +10,9 @@
       <li>Vitest for testing</li>
     </ul>
     <h2>Calling API endpoints</h2>
-    <LazyExampleApiCall />
+    <ClientOnly>
+      <LazyExampleApiCall />
+    </ClientOnly>
   </section>
 </template>
 
