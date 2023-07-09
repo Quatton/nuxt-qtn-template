@@ -6,9 +6,11 @@
     <h2>Minimal But Opinionated</h2>
     <ul>
       <li>NuxtLabs UI (Tailwind CSS + Nuxt Colormode)</li>
-      <li>Use Nuxt's API route type safety instead of tRPC</li>
       <li>ESLint with recommended settings</li>
+      <li>Vitest for testing</li>
     </ul>
+    <h2>Calling API endpoints</h2>
+    <LazyExampleApiCall />
   </section>
 </template>
 

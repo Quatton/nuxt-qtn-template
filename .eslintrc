@@ -8,11 +8,13 @@
     "comma-dangle": ["error", "only-multiline"],
     "vue/singleline-html-element-content-newline": "off",
     "vue/multi-word-component-names": "off",
+    "arrow-parens": "off",
     "@typescript-eslint/no-unused-vars": [
       "warn",
       {
         "argsIgnorePattern": "^_"
       }
     ]
-  }
+  },
+  "ignorePatterns": ["node_modules/", ".nuxt/", "dist/"]
 }
