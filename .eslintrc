@@ -1,0 +1,14 @@
+{
+  "root": true,
+  "extends": ["@nuxtjs/eslint-config-typescript"],
+  "overrides": [
+    {
+      "files": ["*.ts", "*.vue"],
+      "rules": {
+        "quotes": ["error", "double"],
+        "semi": ["error", "always"],
+        "comma-dangle": ["error", "only-multiline"]
+      }
+    }
+  ]
+}
