@@ -10,20 +10,25 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@nuxt/devtools": "latest",
+    "@nuxt/devtools": "^0.7.4",
     "@nuxthq/ui": "npm:@nuxthq/ui-edge@latest",
     "@nuxtjs/eslint-config-typescript": "^12.0.0",
     "@nuxtjs/eslint-module": "^4.1.0",
-    "@types/node": "^18",
-    "eslint": "^8.44.0",
-    "nuxt": "^3.6.2",
-    "nuxt-vitest": "^0.9.0",
-    "prettier": "^3.0.0",
-    "prettier-plugin-tailwindcss": "^0.3.0",
+    "@types/node": "^20.4.7",
+    "eslint": "^8.46.0",
+    "nuxt": "^3.6.5",
+    "nuxt-vitest": "^0.10.2",
+    "prettier": "^3.0.1",
+    "prettier-plugin-tailwindcss": "^0.4.1",
     "typescript": "^5.1.6"
   },
   "dependencies": {
+    "@trpc/client": "^10.37.1",
+    "@trpc/server": "^10.37.1",
     "clsx": "^2.0.0",
-    "tailwind-merge": "^1.14.0"
+    "superjson": "^1.13.1",
+    "tailwind-merge": "^1.14.0",
+    "trpc-nuxt": "^0.10.6",
+    "valibot": "^0.9.0"
   }
 }

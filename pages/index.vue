@@ -1,7 +1,5 @@
 <template>
-  <section
-    class="py-10 px-4 prose dark:prose-invert bg-[rgb(var(--background))]"
-  >
+  <section class="py-10 px-4 prose dark:prose-invert bg-background">
     <h1>Quatton's Nuxt.js Template</h1>
     <h2>Minimal But Opinionated</h2>
     <ul>
@@ -15,7 +13,5 @@
     </ClientOnly>
   </section>
 </template>
-
-<script setup></script>
 
 <style></style>

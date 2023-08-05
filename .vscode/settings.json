@@ -1,10 +1,11 @@
 {
   "tailwindCSS.experimental.configFile": "tailwind.config.ts",
-  
+
   "files.associations": {
     "*.css": "tailwindcss"
   },
   "editor.quickSuggestions": {
-      "strings": true
-  }
+    "strings": true
+  },
+  "typescript.tsdk": "node_modules/typescript/lib"
 }

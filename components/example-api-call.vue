@@ -1,5 +1,8 @@
-<script setup>
-  const { data, error, refresh, pending } = useFetch("/api/example");
+<script setup lang="ts">
+  const { $client } = useNuxtApp();
+  const { data, error, pending, refresh } = await $client.hello.useQuery({
+    text: "client",
+  });
 </script>
 
 <template>
@@ -27,7 +30,7 @@
     </div>
 
     <div v-if="data" class="text-green-500">
-      {{ data.message }}
+      {{ data.greeting }}
     </div>
   </UCard>
 </template>
