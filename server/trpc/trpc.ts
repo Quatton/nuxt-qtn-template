@@ -9,7 +9,7 @@
  */
 import { initTRPC } from "@trpc/server";
 import superjson from "superjson";
-import { Context } from "~/server/trpc/context";
+import { Context } from "../trpc/context";
 
 const t = initTRPC.context<Context>().create({
   transformer: superjson,

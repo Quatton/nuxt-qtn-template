@@ -6,6 +6,4 @@ export default defineNuxtConfig({
   build: {
     transpile: ["trpc-nuxt"],
   },
-
-  plugins: ["/c:/Users/Atom/Documents/GitHub/nuxt-qtn-template/plugins/trpc.ts"],
 });
