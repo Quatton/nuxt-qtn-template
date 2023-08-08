@@ -1,9 +1,9 @@
 <script setup lang="ts">
-
   const { $trpc } = useNuxtApp();
   const { data, error, pending, refresh } = await $trpc.hello.useQuery({
     text: "client",
   });
+
 </script>
 
 <template>

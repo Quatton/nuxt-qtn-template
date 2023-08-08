@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: ["@nuxthq/ui", "nuxt-vitest", "@nuxtjs/eslint-module"],
+  modules: ["@nuxthq/ui", "nuxt-vitest"],
 
   build: {
     transpile: ["trpc-nuxt"],
